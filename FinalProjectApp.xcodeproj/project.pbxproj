@@ -20,6 +20,7 @@
 		2E9117662AEB06E900F707C6 /* LogPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117652AEB06E900F707C6 /* LogPageView.swift */; };
 		2E9117682AEB06F600F707C6 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117672AEB06F600F707C6 /* ReminderView.swift */; };
 		2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117692AEB070B00F707C6 /* ServiceView.swift */; };
+		2E91176C2AF082CA00F707C6 /* CarSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2E9117652AEB06E900F707C6 /* LogPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPageView.swift; sourceTree = "<group>"; };
 		2E9117672AEB06F600F707C6 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		2E9117692AEB070B00F707C6 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				2E9117322AE99F7A00F707C6 /* ContentView.swift */,
+				2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */,
 				2E9117612AEB06CD00F707C6 /* DashboardView.swift */,
 				2E9117632AEB06DD00F707C6 /* BasicInfoView.swift */,
 				2E9117652AEB06E900F707C6 /* LogPageView.swift */,
@@ -300,6 +303,7 @@
 				2E9117682AEB06F600F707C6 /* ReminderView.swift in Sources */,
 				2E9117312AE99F7A00F707C6 /* FinalProjectAppApp.swift in Sources */,
 				2E9117642AEB06DD00F707C6 /* BasicInfoView.swift in Sources */,
+				2E91176C2AF082CA00F707C6 /* CarSelectionView.swift in Sources */,
 				2E9117602AE9B83700F707C6 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

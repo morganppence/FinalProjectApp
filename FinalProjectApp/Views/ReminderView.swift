@@ -25,7 +25,6 @@ struct ReminderView: View {
                 
                 
             }*/
-            .padding()
             .background(.ultraThinMaterial, in:RoundedRectangle(cornerRadius: 20, style:.continuous))
             
         }
