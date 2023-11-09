@@ -15,9 +15,9 @@ struct CarSelectionView: View {
     @State private var userInput: String = ""
     @State private var outputText: String = ""
     
-    let Make = ["Toyota", "Honda"]
-    let Model = ["4Runner", "Tacoma"]
-    let Year = ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"]
+    let make = ["Toyota", "Honda"]
+    let model = ["4Runner", "Tacoma"]
+    let year = ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"]
     
     
 
@@ -35,7 +35,7 @@ struct CarSelectionView: View {
                 HStack{
                     Text("Select make: ")
                     Picker("Select Make", selection: $selection) {
-                        ForEach(Make, id: \.self) {
+                        ForEach(make, id: \.self) {
                             Text($0)
                         }
                         .pickerStyle(MenuPickerStyle())
@@ -44,7 +44,7 @@ struct CarSelectionView: View {
                 HStack{
                     Text("Select Model")
                     Picker("Select Model", selection: $selection) {
-                        ForEach(Model, id: \.self) {
+                        ForEach(model, id: \.self) {
                             Text($0)
                         }
                         .pickerStyle(MenuPickerStyle())
@@ -53,7 +53,7 @@ struct CarSelectionView: View {
                 HStack{
                     Text("Select Year")
                     Picker("Select Year", selection: $selection) {
-                        ForEach(Year, id: \.self) {
+                        ForEach(year, id: \.self) {
                             Text($0)
                         }
                         .pickerStyle(MenuPickerStyle())

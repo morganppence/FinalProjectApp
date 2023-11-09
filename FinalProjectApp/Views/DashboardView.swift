@@ -8,28 +8,31 @@
 import Foundation
 import SwiftUI
 
+
 struct DashboardView: View {
     @State var isOn: Bool = false
+    @State private var vehicle = VehicleData.examples()
     
-
     var body: some View {
-        ZStack{
-            LinearGradient(colors: [.blue,.white], startPoint: .topLeading, endPoint: .bottomTrailing)
-            
-            
-            /*VStack{
-                Text("Hello, Morgan!")
-                    .fontWeight(.bold)
-                Text("Welcome to your home page")
-                    .foregroundColor(.blue)
-                
-                
-            }*/
-            .background(.ultraThinMaterial, in:RoundedRectangle(cornerRadius: 20, style:.continuous))
-            
+        NavigationView {
+            ScrollView {
+                LazyVStack(spacing: 10) {
+                    ForEach(vehicle) { vehicle in DashboardCardView(vehicle: vehicle)
+                    }
+                }.padding()
+            }
+            .navigationTitle("Dashboard")
         }
         
-        .edgesIgnoringSafeArea(.all)
         
     }
 }
+
+
+
+struct DashboardView_Previews: PreviewProvider {
+    static var previews: some View {
+        DashboardView()
+    }
+}
+

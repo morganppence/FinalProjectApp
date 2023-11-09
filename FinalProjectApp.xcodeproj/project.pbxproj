@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E797E012AFD8279001685E4 /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E002AFD8279001685E4 /* VehicleData.swift */; };
+		2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E032AFD87C3001685E4 /* DashboardCardView.swift */; };
 		2E9117312AE99F7A00F707C6 /* FinalProjectAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */; };
 		2E9117332AE99F7A00F707C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117322AE99F7A00F707C6 /* ContentView.swift */; };
 		2E9117352AE99F7B00F707C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9117342AE99F7B00F707C6 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E797E002AFD8279001685E4 /* VehicleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
+		2E797E032AFD87C3001685E4 /* DashboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView.swift; sourceTree = "<group>"; };
 		2E91172D2AE99F7A00F707C6 /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectAppApp.swift; sourceTree = "<group>"; };
 		2E9117322AE99F7A00F707C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E797DFF2AFD8260001685E4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2E797E002AFD8279001685E4 /* VehicleData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		2E797E022AFD87A6001685E4 /* custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				2E797E032AFD87C3001685E4 /* DashboardCardView.swift */,
+			);
+			path = "custom cells";
+			sourceTree = "<group>";
+		};
 		2E9117242AE99F7A00F707C6 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +129,8 @@
 		2E91172F2AE99F7A00F707C6 /* FinalProjectApp */ = {
 			isa = PBXGroup;
 			children = (
+				2E797E022AFD87A6001685E4 /* custom cells */,
+				2E797DFF2AFD8260001685E4 /* data */,
 				2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */,
 				2E91175E2AE9B77D00F707C6 /* Navigation */,
 				2E91175B2AE9B20300F707C6 /* Views */,
@@ -296,10 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */,
 				2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */,
 				2E9117662AEB06E900F707C6 /* LogPageView.swift in Sources */,
 				2E9117332AE99F7A00F707C6 /* ContentView.swift in Sources */,
 				2E9117622AEB06CD00F707C6 /* DashboardView.swift in Sources */,
+				2E797E012AFD8279001685E4 /* VehicleData.swift in Sources */,
 				2E9117682AEB06F600F707C6 /* ReminderView.swift in Sources */,
 				2E9117312AE99F7A00F707C6 /* FinalProjectAppApp.swift in Sources */,
 				2E9117642AEB06DD00F707C6 /* BasicInfoView.swift in Sources */,
