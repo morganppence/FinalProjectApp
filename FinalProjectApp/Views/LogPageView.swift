@@ -20,7 +20,7 @@ struct LogPageView: View {
             VStack{
                 Text("Hello, Morgan!")
                     .fontWeight(.bold)
-                Text("Welcome to your home page")
+                Text("See you recent service and update logs here")
                     .foregroundColor(.blue)
                 
                 

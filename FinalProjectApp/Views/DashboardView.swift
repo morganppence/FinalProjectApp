@@ -15,6 +15,21 @@ struct DashboardView: View {
     
     var body: some View {
         NavigationView {
+            VStack {
+                NavigationLink(destination: BasicInfoView()) {
+                    DashCardView()
+                }
+                NavigationLink(destination: ReminderView()) {
+                    ReminderCardView()
+                }
+                NavigationLink(destination: LogPageView()) {
+                    DashboardLogCardView()
+                }
+            }
+            .navigationTitle("Your Dashboard")
+        }
+        /*
+        NavigationView {
             ScrollView {
                 LazyVStack(spacing: 10) {
                     ForEach(vehicle) { vehicle in DashboardCardView(vehicle: vehicle)
@@ -22,7 +37,7 @@ struct DashboardView: View {
                 }.padding()
             }
             .navigationTitle("Dashboard")
-        }
+        }*/
         
         
     }
