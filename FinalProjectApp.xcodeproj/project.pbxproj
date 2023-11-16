@@ -13,6 +13,8 @@
 		2E797E082B02C0CF001685E4 /* ServiceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E072B02C0CF001685E4 /* ServiceCardView.swift */; };
 		2E797E0A2B02C125001685E4 /* ReminderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E092B02C125001685E4 /* ReminderCardView.swift */; };
 		2E797E0C2B02C19A001685E4 /* DashboardLogCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E0B2B02C19A001685E4 /* DashboardLogCardView.swift */; };
+		2E797E372B06BDEE001685E4 /* LogModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E352B06BDEE001685E4 /* LogModel.xcdatamodeld */; };
+		2E797E3D2B06BF18001685E4 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E3C2B06BF18001685E4 /* LogView.swift */; };
 		2E9117312AE99F7A00F707C6 /* FinalProjectAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */; };
 		2E9117332AE99F7A00F707C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117322AE99F7A00F707C6 /* ContentView.swift */; };
 		2E9117352AE99F7B00F707C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9117342AE99F7B00F707C6 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		2E797E072B02C0CF001685E4 /* ServiceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCardView.swift; sourceTree = "<group>"; };
 		2E797E092B02C125001685E4 /* ReminderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardView.swift; sourceTree = "<group>"; };
 		2E797E0B2B02C19A001685E4 /* DashboardLogCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardLogCardView.swift; sourceTree = "<group>"; };
+		2E797E362B06BDEE001685E4 /* LogModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogModel.xcdatamodel; sourceTree = "<group>"; };
+		2E797E3C2B06BF18001685E4 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		2E91172D2AE99F7A00F707C6 /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectAppApp.swift; sourceTree = "<group>"; };
 		2E9117322AE99F7A00F707C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,15 @@
 			path = "custom cells";
 			sourceTree = "<group>";
 		};
+		2E797E2E2B0574F6001685E4 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				2E797E352B06BDEE001685E4 /* LogModel.xcdatamodeld */,
+				2E797E3C2B06BF18001685E4 /* LogView.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
 		2E9117242AE99F7A00F707C6 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +194,7 @@
 		2E91175B2AE9B20300F707C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E797E2E2B0574F6001685E4 /* Logs */,
 				2E9117322AE99F7A00F707C6 /* ContentView.swift */,
 				2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */,
 				2E9117612AEB06CD00F707C6 /* DashboardView.swift */,
@@ -330,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E797E372B06BDEE001685E4 /* LogModel.xcdatamodeld in Sources */,
 				2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */,
 				2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */,
 				2E797E0C2B02C19A001685E4 /* DashboardLogCardView.swift in Sources */,
@@ -343,6 +358,7 @@
 				2E9117642AEB06DD00F707C6 /* BasicInfoView.swift in Sources */,
 				2E91176C2AF082CA00F707C6 /* CarSelectionView.swift in Sources */,
 				2E797E082B02C0CF001685E4 /* ServiceCardView.swift in Sources */,
+				2E797E3D2B06BF18001685E4 /* LogView.swift in Sources */,
 				2E797E0A2B02C125001685E4 /* ReminderCardView.swift in Sources */,
 				2E9117602AE9B83700F707C6 /* NavigationBar.swift in Sources */,
 			);
@@ -701,6 +717,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E797E352B06BDEE001685E4 /* LogModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E797E362B06BDEE001685E4 /* LogModel.xcdatamodel */,
+			);
+			currentVersion = 2E797E362B06BDEE001685E4 /* LogModel.xcdatamodel */;
+			path = LogModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2E9117252AE99F7A00F707C6 /* Project object */;
 }

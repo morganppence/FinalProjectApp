@@ -4,7 +4,7 @@
 //
 //  Created by Morgan Pence on 11/16/23.
 //
-
+/*
 import SwiftUI
 import Foundation
 
@@ -78,3 +78,4 @@ struct JournalEntryView_Previews: PreviewProvider {
         ContentLogView()
     }
 }
+*/
