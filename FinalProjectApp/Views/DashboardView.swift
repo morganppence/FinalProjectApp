@@ -25,6 +25,9 @@ struct DashboardView: View {
                 NavigationLink(destination: LogPageView()) {
                     DashboardLogCardView()
                 }
+                NavigationLink(destination: CarSelectionView()) {
+                    AddVehicleCardView()
+                }
             }
             .navigationTitle("Your Dashboard")
         }

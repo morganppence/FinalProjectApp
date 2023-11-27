@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7001E92B13E452007E5A35 /* AddVehicleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7001E82B13E452007E5A35 /* AddVehicleCardView.swift */; };
 		2E797E012AFD8279001685E4 /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E002AFD8279001685E4 /* VehicleData.swift */; };
 		2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E032AFD87C3001685E4 /* DashboardCardView.swift */; };
 		2E797E062B02BFCC001685E4 /* DashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E052B02BFCC001685E4 /* DashCardView.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E7001E82B13E452007E5A35 /* AddVehicleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleCardView.swift; sourceTree = "<group>"; };
 		2E797E002AFD8279001685E4 /* VehicleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
 		2E797E032AFD87C3001685E4 /* DashboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView.swift; sourceTree = "<group>"; };
 		2E797E052B02BFCC001685E4 /* DashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashCardView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2E797E032AFD87C3001685E4 /* DashboardCardView.swift */,
+				2E7001E82B13E452007E5A35 /* AddVehicleCardView.swift */,
 				2E797E052B02BFCC001685E4 /* DashCardView.swift */,
 				2E797E072B02C0CF001685E4 /* ServiceCardView.swift */,
 				2E797E092B02C125001685E4 /* ReminderCardView.swift */,
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E797E372B06BDEE001685E4 /* LogModel.xcdatamodeld in Sources */,
+				2E7001E92B13E452007E5A35 /* AddVehicleCardView.swift in Sources */,
 				2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */,
 				2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */,
 				2E797E0C2B02C19A001685E4 /* DashboardLogCardView.swift in Sources */,
