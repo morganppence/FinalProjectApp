@@ -17,7 +17,8 @@ struct DashboardView: View {
         NavigationView {
             VStack {
                 NavigationLink(destination: BasicInfoView()) {
-                    DashCardView()
+                    //DashCardView()
+                    DashboardCardView1()
                 }
                 NavigationLink(destination: ReminderView()) {
                     ReminderCardView()
@@ -31,18 +32,6 @@ struct DashboardView: View {
             }
             .navigationTitle("Your Dashboard")
         }
-        /*
-        NavigationView {
-            ScrollView {
-                LazyVStack(spacing: 10) {
-                    ForEach(vehicle) { vehicle in DashboardCardView(vehicle: vehicle)
-                    }
-                }.padding()
-            }
-            .navigationTitle("Dashboard")
-        }*/
-        
-        
     }
 }
 

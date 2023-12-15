@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0E85FA2B225B1000D74634 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E85F92B225B1000D74634 /* SignInView.swift */; };
+		2E0E85FF2B22756200D74634 /* ServiceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E85FE2B22756200D74634 /* ServiceMapView.swift */; };
+		2E0E86012B22768400D74634 /* ServiceMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E86002B22768400D74634 /* ServiceMapViewModel.swift */; };
+		2E0E86032B2276E100D74634 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E86022B2276E100D74634 /* LocationService.swift */; };
 		2E7001E92B13E452007E5A35 /* AddVehicleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7001E82B13E452007E5A35 /* AddVehicleCardView.swift */; };
 		2E797E012AFD8279001685E4 /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E002AFD8279001685E4 /* VehicleData.swift */; };
 		2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E032AFD87C3001685E4 /* DashboardCardView.swift */; };
@@ -30,6 +34,23 @@
 		2E9117682AEB06F600F707C6 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117672AEB06F600F707C6 /* ReminderView.swift */; };
 		2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117692AEB070B00F707C6 /* ServiceView.swift */; };
 		2E91176C2AF082CA00F707C6 /* CarSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */; };
+		2EE6716D2B2A476C007AB367 /* DashboardCardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6716C2B2A476C007AB367 /* DashboardCardView1.swift */; };
+		2EE671722B2A5069007AB367 /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671712B2A5069007AB367 /* TextFieldContentView.swift */; };
+		2EE671742B2A5085007AB367 /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671732B2A5085007AB367 /* TextViewContentView.swift */; };
+		2EE671762B2A50A2007AB367 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671752B2A50A2007AB367 /* UIView.swift */; };
+		2EE671782B2A50C2007AB367 /* UIContentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671772B2A50C2007AB367 /* UIContentConfiguration.swift */; };
+		2EE6717A2B2A50E9007AB367 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671792B2A50E9007AB367 /* DatePickerContentView.swift */; };
+		2EE6717D2B2A5181007AB367 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6717C2B2A5181007AB367 /* ReminderListViewController.swift */; };
+		2EE6717F2B2A51BD007AB367 /* ReminderListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6717E2B2A51BD007AB367 /* ReminderListDataSource.swift */; };
+		2EE671812B2A51FE007AB367 /* ReminderDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671802B2A51FE007AB367 /* ReminderDone.swift */; };
+		2EE671832B2A5224007AB367 /* ReminderListActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671822B2A5224007AB367 /* ReminderListActions.swift */; };
+		2EE671862B2A5272007AB367 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671852B2A5272007AB367 /* ReminderViewController.swift */; };
+		2EE671882B2A5299007AB367 /* ReminderViewControllerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671872B2A5299007AB367 /* ReminderViewControllerRow.swift */; };
+		2EE6718A2B2A52B5007AB367 /* ReminderViewControllerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671892B2A52B5007AB367 /* ReminderViewControllerSection.swift */; };
+		2EE6718C2B2A52CE007AB367 /* ReminderViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6718B2B2A52CE007AB367 /* ReminderViewCellConfiguration.swift */; };
+		2EE6718F2B2A5354007AB367 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6718E2B2A5354007AB367 /* Reminder.swift */; };
+		2EE671912B2A5373007AB367 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671902B2A5373007AB367 /* UIColor.swift */; };
+		2EE671932B2A5383007AB367 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671922B2A5383007AB367 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0E85F92B225B1000D74634 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		2E0E85FE2B22756200D74634 /* ServiceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMapView.swift; sourceTree = "<group>"; };
+		2E0E86002B22768400D74634 /* ServiceMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMapViewModel.swift; sourceTree = "<group>"; };
+		2E0E86022B2276E100D74634 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		2E7001E82B13E452007E5A35 /* AddVehicleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleCardView.swift; sourceTree = "<group>"; };
 		2E797E002AFD8279001685E4 /* VehicleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
 		2E797E032AFD87C3001685E4 /* DashboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView.swift; sourceTree = "<group>"; };
@@ -77,6 +102,23 @@
 		2E9117672AEB06F600F707C6 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		2E9117692AEB070B00F707C6 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
 		2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionView.swift; sourceTree = "<group>"; };
+		2EE6716C2B2A476C007AB367 /* DashboardCardView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView1.swift; sourceTree = "<group>"; };
+		2EE671712B2A5069007AB367 /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
+		2EE671732B2A5085007AB367 /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
+		2EE671752B2A50A2007AB367 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		2EE671772B2A50C2007AB367 /* UIContentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentConfiguration.swift; sourceTree = "<group>"; };
+		2EE671792B2A50E9007AB367 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
+		2EE6717C2B2A5181007AB367 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
+		2EE6717E2B2A51BD007AB367 /* ReminderListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListDataSource.swift; sourceTree = "<group>"; };
+		2EE671802B2A51FE007AB367 /* ReminderDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDone.swift; sourceTree = "<group>"; };
+		2EE671822B2A5224007AB367 /* ReminderListActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListActions.swift; sourceTree = "<group>"; };
+		2EE671852B2A5272007AB367 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		2EE671872B2A5299007AB367 /* ReminderViewControllerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewControllerRow.swift; sourceTree = "<group>"; };
+		2EE671892B2A52B5007AB367 /* ReminderViewControllerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewControllerSection.swift; sourceTree = "<group>"; };
+		2EE6718B2B2A52CE007AB367 /* ReminderViewCellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewCellConfiguration.swift; sourceTree = "<group>"; };
+		2EE6718E2B2A5354007AB367 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		2EE671902B2A5373007AB367 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2EE671922B2A5383007AB367 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +146,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0E85FB2B2274C600D74634 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E85FE2B22756200D74634 /* ServiceMapView.swift */,
+				2E0E86002B22768400D74634 /* ServiceMapViewModel.swift */,
+				2E0E86022B2276E100D74634 /* LocationService.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		2E797DFF2AFD8260001685E4 /* data */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +173,7 @@
 				2E797E072B02C0CF001685E4 /* ServiceCardView.swift */,
 				2E797E092B02C125001685E4 /* ReminderCardView.swift */,
 				2E797E0B2B02C19A001685E4 /* DashboardLogCardView.swift */,
+				2EE6716C2B2A476C007AB367 /* DashboardCardView1.swift */,
 			);
 			path = "custom cells";
 			sourceTree = "<group>";
@@ -157,6 +210,8 @@
 		2E91172F2AE99F7A00F707C6 /* FinalProjectApp */ = {
 			isa = PBXGroup;
 			children = (
+				2EE6716F2B2A503C007AB367 /* Reminders */,
+				2E0E85FB2B2274C600D74634 /* Map */,
 				2E797E022AFD87A6001685E4 /* custom cells */,
 				2E797DFF2AFD8260001685E4 /* data */,
 				2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */,
@@ -205,6 +260,7 @@
 				2E9117652AEB06E900F707C6 /* LogPageView.swift */,
 				2E9117672AEB06F600F707C6 /* ReminderView.swift */,
 				2E9117692AEB070B00F707C6 /* ServiceView.swift */,
+				2E0E85F92B225B1000D74634 /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +271,61 @@
 				2E91175F2AE9B83700F707C6 /* NavigationBar.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2EE6716F2B2A503C007AB367 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				2EE6718D2B2A5344007AB367 /* Models */,
+				2EE671842B2A525A007AB367 /* DetailViewController */,
+				2EE6717B2B2A515C007AB367 /* ListViewController */,
+				2EE671702B2A504C007AB367 /* Views */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		2EE671702B2A504C007AB367 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EE671712B2A5069007AB367 /* TextFieldContentView.swift */,
+				2EE671732B2A5085007AB367 /* TextViewContentView.swift */,
+				2EE671752B2A50A2007AB367 /* UIView.swift */,
+				2EE671772B2A50C2007AB367 /* UIContentConfiguration.swift */,
+				2EE671792B2A50E9007AB367 /* DatePickerContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EE6717B2B2A515C007AB367 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EE6717C2B2A5181007AB367 /* ReminderListViewController.swift */,
+				2EE6717E2B2A51BD007AB367 /* ReminderListDataSource.swift */,
+				2EE671802B2A51FE007AB367 /* ReminderDone.swift */,
+				2EE671822B2A5224007AB367 /* ReminderListActions.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		2EE671842B2A525A007AB367 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EE671852B2A5272007AB367 /* ReminderViewController.swift */,
+				2EE671872B2A5299007AB367 /* ReminderViewControllerRow.swift */,
+				2EE671892B2A52B5007AB367 /* ReminderViewControllerSection.swift */,
+				2EE6718B2B2A52CE007AB367 /* ReminderViewCellConfiguration.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		2EE6718D2B2A5344007AB367 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EE6718E2B2A5354007AB367 /* Reminder.swift */,
+				2EE671902B2A5373007AB367 /* UIColor.swift */,
+				2EE671922B2A5383007AB367 /* Date.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,24 +458,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE6717F2B2A51BD007AB367 /* ReminderListDataSource.swift in Sources */,
+				2EE671762B2A50A2007AB367 /* UIView.swift in Sources */,
+				2EE671812B2A51FE007AB367 /* ReminderDone.swift in Sources */,
 				2E797E372B06BDEE001685E4 /* LogModel.xcdatamodeld in Sources */,
+				2E0E85FF2B22756200D74634 /* ServiceMapView.swift in Sources */,
 				2E7001E92B13E452007E5A35 /* AddVehicleCardView.swift in Sources */,
 				2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */,
+				2EE671722B2A5069007AB367 /* TextFieldContentView.swift in Sources */,
+				2EE671862B2A5272007AB367 /* ReminderViewController.swift in Sources */,
+				2EE6718F2B2A5354007AB367 /* Reminder.swift in Sources */,
 				2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */,
 				2E797E0C2B02C19A001685E4 /* DashboardLogCardView.swift in Sources */,
+				2E0E86032B2276E100D74634 /* LocationService.swift in Sources */,
 				2E9117662AEB06E900F707C6 /* LogPageView.swift in Sources */,
 				2E9117332AE99F7A00F707C6 /* ContentView.swift in Sources */,
 				2E9117622AEB06CD00F707C6 /* DashboardView.swift in Sources */,
+				2EE6717A2B2A50E9007AB367 /* DatePickerContentView.swift in Sources */,
 				2E797E012AFD8279001685E4 /* VehicleData.swift in Sources */,
+				2EE671882B2A5299007AB367 /* ReminderViewControllerRow.swift in Sources */,
+				2E0E86012B22768400D74634 /* ServiceMapViewModel.swift in Sources */,
+				2EE6718A2B2A52B5007AB367 /* ReminderViewControllerSection.swift in Sources */,
 				2E797E062B02BFCC001685E4 /* DashCardView.swift in Sources */,
+				2E0E85FA2B225B1000D74634 /* SignInView.swift in Sources */,
 				2E9117682AEB06F600F707C6 /* ReminderView.swift in Sources */,
+				2EE6718C2B2A52CE007AB367 /* ReminderViewCellConfiguration.swift in Sources */,
+				2EE6717D2B2A5181007AB367 /* ReminderListViewController.swift in Sources */,
+				2EE671742B2A5085007AB367 /* TextViewContentView.swift in Sources */,
+				2EE671912B2A5373007AB367 /* UIColor.swift in Sources */,
 				2E9117312AE99F7A00F707C6 /* FinalProjectAppApp.swift in Sources */,
+				2EE671832B2A5224007AB367 /* ReminderListActions.swift in Sources */,
 				2E9117642AEB06DD00F707C6 /* BasicInfoView.swift in Sources */,
 				2E91176C2AF082CA00F707C6 /* CarSelectionView.swift in Sources */,
 				2E797E082B02C0CF001685E4 /* ServiceCardView.swift in Sources */,
 				2E797E3D2B06BF18001685E4 /* LogView.swift in Sources */,
 				2E797E0A2B02C125001685E4 /* ReminderCardView.swift in Sources */,
 				2E9117602AE9B83700F707C6 /* NavigationBar.swift in Sources */,
+				2EE671782B2A50C2007AB367 /* UIContentConfiguration.swift in Sources */,
+				2EE671932B2A5383007AB367 /* Date.swift in Sources */,
+				2EE6716D2B2A476C007AB367 /* DashboardCardView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +660,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CarCare+";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -566,6 +699,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CarCare+";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

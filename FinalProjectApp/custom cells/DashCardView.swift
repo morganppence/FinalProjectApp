@@ -37,14 +37,6 @@ struct DashCardView: View {
                 .cornerRadius(10)
                 .shadow(radius: 5)
             
-           /* Text("Card Title")
-                .font(.title)
-                .fontWeight(.bold)
-                .padding()
-            
-            Text("Card Description goes here.")
-                .foregroundColor(.secondary)
-                .padding()*/
         }
         .background(Color.white)
         .cornerRadius(10)

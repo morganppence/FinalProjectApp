@@ -8,9 +8,6 @@
 import Foundation
 import SwiftUI
 
-import Foundation
-import SwiftUI
-
 struct ServiceUpdate: Identifiable {
     var id = UUID()
     var title: String
@@ -19,6 +16,8 @@ struct ServiceUpdate: Identifiable {
 }
 
 struct ReminderView: View {
+    @State var isOn: Bool = false
+    
     let serviceUpdates: [ServiceUpdate] = [
         ServiceUpdate(title: "Oil Change", description: "Replace engine oil and oil filter", details: "Recommended every 5,000 miles for a Toyota 4Runner."),
         ServiceUpdate(title: "Brake Inspection", description: "Check and replace brake pads if necessary", details: "Ensure optimal braking performance. Based on a recent log, you should need this service around 12/08."),
@@ -66,30 +65,3 @@ struct ReminderView_Previews: PreviewProvider {
         ReminderView()
     }
 }
-
-
-/*struct ReminderView: View {
-    @State var isOn: Bool = false
-    
-
-    var body: some View {
-        ZStack{
-            LinearGradient(colors: [.blue,.white], startPoint: .topLeading, endPoint: .bottomTrailing)
-            
-            
-            /*VStack{
-                Text("Hello, Morgan!")
-                    .fontWeight(.bold)
-                Text("Welcome to your home page")
-                    .foregroundColor(.blue)
-                
-                
-            }*/
-            .background(.ultraThinMaterial, in:RoundedRectangle(cornerRadius: 20, style:.continuous))
-            
-        }
-        
-        .edgesIgnoringSafeArea(.all)
-        
-    }
-}*/
