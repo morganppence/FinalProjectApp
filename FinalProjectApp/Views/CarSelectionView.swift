@@ -21,8 +21,9 @@ struct CarSelectionView: View {
     
     let make = ["Toyota", "Honda"]
     let model = ["4Runner", "Tacoma"]
+    let hondaModel = ["Passport", "CRV"]
     
-    let hondaModel = ["Passport"]
+    @State private var hondaModelSelection = "Passport"
     
     let year = ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"]
     
@@ -61,24 +62,31 @@ struct CarSelectionView: View {
                     }
 
                 } else if makeSelection == "Honda" {
-                    // Additional views or actions for Honda make
-                    
-                    Text("Honda selected")
+                    //Text("Honda selected")
+                    HStack{
+                        Text("Select Model")
+                        Picker("Select Model", selection: $hondaModelSelection) {
+                            ForEach(hondaModel, id: \.self) {
+                                Text($0)
+                            }
+                            .pickerStyle(MenuPickerStyle())
+                        }
+                    }
                 }
                 
 
                
                 
                 
-                /*HStack{
+                HStack{
                     Text("Select Year")
-                    Picker("Select Year", selection: $selection) {
+                    Picker("Select Year", selection: $yearSelection) {
                         ForEach(year, id: \.self) {
                             Text($0)
                         }
                         .pickerStyle(MenuPickerStyle())
                     }
-                }*/
+                }
                 
                 HStack {
                     TextField("Enter mileage", text: $userInput)

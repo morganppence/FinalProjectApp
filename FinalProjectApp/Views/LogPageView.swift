@@ -8,66 +8,69 @@
 import Foundation
 import SwiftUI
 
-struct JournalEntry: Identifiable {
-    let id = UUID()
+struct JournalEntry: Identifiable, Codable {
+    let id: UUID
     let text: String
     let date: Date
-}
-
-class JournalViewModel: ObservableObject {
-    @Published var entries: [JournalEntry] = []
-
-    func addEntry(text: String) {
-        let entry = JournalEntry(text: text, date: Date())
-        entries.append(entry)
+    
+    init(id: UUID = UUID(), text: String, date: Date) {
+        self.id = id
+        self.text = text
+        self.date = date
     }
 }
 
 struct LogPageView: View {
+    
+    @Environment(Model.self) var model
+
     @State var isOn: Bool = false
     @State private var newEntryText: String = ""
-    @ObservedObject private var viewModel = JournalViewModel()
 
     var body: some View {
-        NavigationView {
-            VStack {
-                TextField("Add New Log", text: $newEntryText)
-                    .padding()
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-
-                Button("Save Entry") {
-                    viewModel.addEntry(text: newEntryText)
-                    newEntryText = ""
-                }
+        
+        VStack {
+            TextField("Add New Log", text: $newEntryText)
                 .padding()
-                .foregroundColor(.white)
-                .background(Color.gray)
-                .cornerRadius(10)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
 
-                NavigationLink(destination: JournalEntriesView(entries: viewModel.entries)) {
-                    Text("View All Entries")
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                }
+            Button("Save Entry") {
+                let logEntry = JournalEntry(id: UUID(), text: newEntryText, date: Date())
+                model.currentCar.logs.append(logEntry)
+                model.save()
+                newEntryText = ""
             }
             .padding()
-            .navigationTitle("Log Page")
+            .foregroundColor(.white)
+            .background(Color.gray)
+            .cornerRadius(10)
+
+            NavigationLink(destination: JournalEntriesView().environment(model)) {
+                Text("View All Entries")
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
         }
+            .padding()
+            .navigationTitle("Log Page")
     }
 }
 
 struct JournalEntriesView: View {
-    var entries: [JournalEntry]
+    
+    @Environment(Model.self) var model
 
     var body: some View {
-        List(entries) { entry in
-            VStack(alignment: .leading) {
-                Text(entry.text)
-                Text("\(entry.date)")
-                    .font(.footnote)
-                    .foregroundColor(.gray)
+        List {
+            ForEach(model.currentCar.logs) { entry in
+                VStack(alignment: .leading) {
+                    Text(entry.text)
+                    Text("\(entry.date)")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                }
             }
         }
         .navigationTitle("Log Entries")

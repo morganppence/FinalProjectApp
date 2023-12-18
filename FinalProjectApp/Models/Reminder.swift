@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Reminder: Equatable, Identifiable {
+struct Reminder: Equatable, Identifiable, Codable {
     var id: String = UUID().uuidString
     var title: String
     var dueDate: Date
-    var notes: String? = nil
+    var notes: String
     var isComplete: Bool = false
 }
 
@@ -24,7 +24,7 @@ extension [Reminder] {
     }
 }
 
-#if DEBUG
+//#if DEBUG
 extension Reminder {
     static var sampleData = [
         Reminder(
@@ -41,4 +41,4 @@ extension Reminder {
             notes: "Replace engine air filter. Improve engine performance and fuel efficiency.", isComplete: true),
     ]
 }
-#endif
+//#endif

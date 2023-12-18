@@ -9,9 +9,15 @@ import Foundation
 import SwiftUI
 
 struct DashboardCardView1: View {
+    
+    @Environment(Model.self) var model
+    
     var body: some View {
         VStack {
-            CardView7(carTitle: "Your 2017 Toyota 4Runner", imageName: "2017_toyota_4runner", text: "Access your dashboard information here.")
+            CardView7(
+                carTitle: "Your " + model.currentCar.title,
+                imageName: model.currentCar.imageName,
+                text: "Access your dashboard information here.")
         }
         .background(Color.white)
         .cornerRadius(10)

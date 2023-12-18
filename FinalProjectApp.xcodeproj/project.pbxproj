@@ -18,10 +18,7 @@
 		2E797E082B02C0CF001685E4 /* ServiceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E072B02C0CF001685E4 /* ServiceCardView.swift */; };
 		2E797E0A2B02C125001685E4 /* ReminderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E092B02C125001685E4 /* ReminderCardView.swift */; };
 		2E797E0C2B02C19A001685E4 /* DashboardLogCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E0B2B02C19A001685E4 /* DashboardLogCardView.swift */; };
-		2E797E372B06BDEE001685E4 /* LogModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E352B06BDEE001685E4 /* LogModel.xcdatamodeld */; };
-		2E797E3D2B06BF18001685E4 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E797E3C2B06BF18001685E4 /* LogView.swift */; };
 		2E9117312AE99F7A00F707C6 /* FinalProjectAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */; };
-		2E9117332AE99F7A00F707C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117322AE99F7A00F707C6 /* ContentView.swift */; };
 		2E9117352AE99F7B00F707C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9117342AE99F7B00F707C6 /* Assets.xcassets */; };
 		2E9117392AE99F7B00F707C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9117382AE99F7B00F707C6 /* Preview Assets.xcassets */; };
 		2E9117432AE99F7B00F707C6 /* FinalProjectAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9117422AE99F7B00F707C6 /* FinalProjectAppTests.swift */; };
@@ -51,6 +48,12 @@
 		2EE6718F2B2A5354007AB367 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6718E2B2A5354007AB367 /* Reminder.swift */; };
 		2EE671912B2A5373007AB367 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671902B2A5373007AB367 /* UIColor.swift */; };
 		2EE671932B2A5383007AB367 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671922B2A5383007AB367 /* Date.swift */; };
+		2EE671972B2E18E4007AB367 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671962B2E18E4007AB367 /* AddReminderView.swift */; };
+		2EE671992B2E1F44007AB367 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671982B2E1F44007AB367 /* Car.swift */; };
+		2EE6719B2B2E1FEB007AB367 /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6719A2B2E1FEB007AB367 /* LogEntry.swift */; };
+		2EE6719D2B2FB0D7007AB367 /* HondaDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6719C2B2FB0D7007AB367 /* HondaDashboardView.swift */; };
+		2EE671A22B2FB2DE007AB367 /* HondaBasicInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671A12B2FB2DE007AB367 /* HondaBasicInfoView.swift */; };
+		2EE671A42B2FFEAC007AB367 /* ServiceMapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE671A32B2FFEAC007AB367 /* ServiceMapCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,11 +85,8 @@
 		2E797E072B02C0CF001685E4 /* ServiceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCardView.swift; sourceTree = "<group>"; };
 		2E797E092B02C125001685E4 /* ReminderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardView.swift; sourceTree = "<group>"; };
 		2E797E0B2B02C19A001685E4 /* DashboardLogCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardLogCardView.swift; sourceTree = "<group>"; };
-		2E797E362B06BDEE001685E4 /* LogModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogModel.xcdatamodel; sourceTree = "<group>"; };
-		2E797E3C2B06BF18001685E4 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		2E91172D2AE99F7A00F707C6 /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9117302AE99F7A00F707C6 /* FinalProjectAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectAppApp.swift; sourceTree = "<group>"; };
-		2E9117322AE99F7A00F707C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E9117342AE99F7B00F707C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9117362AE99F7B00F707C6 /* FinalProjectApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProjectApp.entitlements; sourceTree = "<group>"; };
 		2E9117382AE99F7B00F707C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -119,6 +119,12 @@
 		2EE6718E2B2A5354007AB367 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		2EE671902B2A5373007AB367 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		2EE671922B2A5383007AB367 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		2EE671962B2E18E4007AB367 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		2EE671982B2E1F44007AB367 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		2EE6719A2B2E1FEB007AB367 /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
+		2EE6719C2B2FB0D7007AB367 /* HondaDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HondaDashboardView.swift; sourceTree = "<group>"; };
+		2EE671A12B2FB2DE007AB367 /* HondaBasicInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HondaBasicInfoView.swift; sourceTree = "<group>"; };
+		2EE671A32B2FFEAC007AB367 /* ServiceMapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMapCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,7 @@
 				2E797E092B02C125001685E4 /* ReminderCardView.swift */,
 				2E797E0B2B02C19A001685E4 /* DashboardLogCardView.swift */,
 				2EE6716C2B2A476C007AB367 /* DashboardCardView1.swift */,
+				2EE671A32B2FFEAC007AB367 /* ServiceMapCardView.swift */,
 			);
 			path = "custom cells";
 			sourceTree = "<group>";
@@ -181,8 +188,6 @@
 		2E797E2E2B0574F6001685E4 /* Logs */ = {
 			isa = PBXGroup;
 			children = (
-				2E797E352B06BDEE001685E4 /* LogModel.xcdatamodeld */,
-				2E797E3C2B06BF18001685E4 /* LogView.swift */,
 			);
 			path = Logs;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 		2E91172F2AE99F7A00F707C6 /* FinalProjectApp */ = {
 			isa = PBXGroup;
 			children = (
+				2EE6718D2B2A5344007AB367 /* Models */,
 				2EE6716F2B2A503C007AB367 /* Reminders */,
 				2E0E85FB2B2274C600D74634 /* Map */,
 				2E797E022AFD87A6001685E4 /* custom cells */,
@@ -252,15 +258,17 @@
 		2E91175B2AE9B20300F707C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2EE671A02B2FB120007AB367 /* HHonda Info */,
 				2E797E2E2B0574F6001685E4 /* Logs */,
-				2E9117322AE99F7A00F707C6 /* ContentView.swift */,
 				2E91176B2AF082CA00F707C6 /* CarSelectionView.swift */,
+				2EE6719C2B2FB0D7007AB367 /* HondaDashboardView.swift */,
 				2E9117612AEB06CD00F707C6 /* DashboardView.swift */,
 				2E9117632AEB06DD00F707C6 /* BasicInfoView.swift */,
 				2E9117652AEB06E900F707C6 /* LogPageView.swift */,
 				2E9117672AEB06F600F707C6 /* ReminderView.swift */,
 				2E9117692AEB070B00F707C6 /* ServiceView.swift */,
 				2E0E85F92B225B1000D74634 /* SignInView.swift */,
+				2EE671962B2E18E4007AB367 /* AddReminderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,7 +284,6 @@
 		2EE6716F2B2A503C007AB367 /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
-				2EE6718D2B2A5344007AB367 /* Models */,
 				2EE671842B2A525A007AB367 /* DetailViewController */,
 				2EE6717B2B2A515C007AB367 /* ListViewController */,
 				2EE671702B2A504C007AB367 /* Views */,
@@ -324,8 +331,18 @@
 				2EE6718E2B2A5354007AB367 /* Reminder.swift */,
 				2EE671902B2A5373007AB367 /* UIColor.swift */,
 				2EE671922B2A5383007AB367 /* Date.swift */,
+				2EE671982B2E1F44007AB367 /* Car.swift */,
+				2EE6719A2B2E1FEB007AB367 /* LogEntry.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2EE671A02B2FB120007AB367 /* HHonda Info */ = {
+			isa = PBXGroup;
+			children = (
+				2EE671A12B2FB2DE007AB367 /* HondaBasicInfoView.swift */,
+			);
+			path = "HHonda Info";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,21 +475,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE671A22B2FB2DE007AB367 /* HondaBasicInfoView.swift in Sources */,
 				2EE6717F2B2A51BD007AB367 /* ReminderListDataSource.swift in Sources */,
 				2EE671762B2A50A2007AB367 /* UIView.swift in Sources */,
+				2EE671992B2E1F44007AB367 /* Car.swift in Sources */,
 				2EE671812B2A51FE007AB367 /* ReminderDone.swift in Sources */,
-				2E797E372B06BDEE001685E4 /* LogModel.xcdatamodeld in Sources */,
 				2E0E85FF2B22756200D74634 /* ServiceMapView.swift in Sources */,
 				2E7001E92B13E452007E5A35 /* AddVehicleCardView.swift in Sources */,
 				2E797E042AFD87C3001685E4 /* DashboardCardView.swift in Sources */,
 				2EE671722B2A5069007AB367 /* TextFieldContentView.swift in Sources */,
+				2EE6719D2B2FB0D7007AB367 /* HondaDashboardView.swift in Sources */,
 				2EE671862B2A5272007AB367 /* ReminderViewController.swift in Sources */,
 				2EE6718F2B2A5354007AB367 /* Reminder.swift in Sources */,
 				2E91176A2AEB070B00F707C6 /* ServiceView.swift in Sources */,
 				2E797E0C2B02C19A001685E4 /* DashboardLogCardView.swift in Sources */,
 				2E0E86032B2276E100D74634 /* LocationService.swift in Sources */,
 				2E9117662AEB06E900F707C6 /* LogPageView.swift in Sources */,
-				2E9117332AE99F7A00F707C6 /* ContentView.swift in Sources */,
+				2EE671972B2E18E4007AB367 /* AddReminderView.swift in Sources */,
 				2E9117622AEB06CD00F707C6 /* DashboardView.swift in Sources */,
 				2EE6717A2B2A50E9007AB367 /* DatePickerContentView.swift in Sources */,
 				2E797E012AFD8279001685E4 /* VehicleData.swift in Sources */,
@@ -491,9 +510,10 @@
 				2E9117642AEB06DD00F707C6 /* BasicInfoView.swift in Sources */,
 				2E91176C2AF082CA00F707C6 /* CarSelectionView.swift in Sources */,
 				2E797E082B02C0CF001685E4 /* ServiceCardView.swift in Sources */,
-				2E797E3D2B06BF18001685E4 /* LogView.swift in Sources */,
 				2E797E0A2B02C125001685E4 /* ReminderCardView.swift in Sources */,
 				2E9117602AE9B83700F707C6 /* NavigationBar.swift in Sources */,
+				2EE671A42B2FFEAC007AB367 /* ServiceMapCardView.swift in Sources */,
+				2EE6719B2B2E1FEB007AB367 /* LogEntry.swift in Sources */,
 				2EE671782B2A50C2007AB367 /* UIContentConfiguration.swift in Sources */,
 				2EE671932B2A5383007AB367 /* Date.swift in Sources */,
 				2EE6716D2B2A476C007AB367 /* DashboardCardView1.swift in Sources */,
@@ -855,19 +875,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2E797E352B06BDEE001685E4 /* LogModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2E797E362B06BDEE001685E4 /* LogModel.xcdatamodel */,
-			);
-			currentVersion = 2E797E362B06BDEE001685E4 /* LogModel.xcdatamodel */;
-			path = LogModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2E9117252AE99F7A00F707C6 /* Project object */;
 }
